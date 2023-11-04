@@ -24,10 +24,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-Where is source code? - <a href='https://github.com/deendayal422/AUTO-FILTER-BOT'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+🌴 source code - <a href='https://github.com/deendayal422/AUTO-FILTER-BOT'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 
 
-Developer - <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>Deendayal dhakad</a></b>"""
+🌱 Developer - <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>Deendayal dhakad</a></b>"""
 
 
 
