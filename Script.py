@@ -10,13 +10,13 @@ class script(object):
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Deendayal_dhakad>Deendayal Dhakad 🇮🇳</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/Deendayal_dhakad'>Deendayal Dhakad🇮🇳</a>
  ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Deendayal_dhakad'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://Render.com'>Render</a> 
+ ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Heroku</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
@@ -24,10 +24,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-Where is source code? - <a href='https://t.me/Deendayal_dhakad'>Deendayal Dhakad</a></b>
+😜 Where is source code? - <a href='https://github.com/Deendayal421/Auto-filter-bot?si=7vYMaNljU2BkZr2Y'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 
 
-Developer - <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+💞 Developer - <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
 
 
@@ -89,7 +89,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 my features Stay here new features coming soon...  
  <b>✯ Maintained by : <a href=https://t.me/Deendayal_dhakad>☢VJ☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/Deendayal_dhakad>🍁Join my updateds🍁</a></b> 
+ <b>✯ Join here : <a href=https://t.me/Deendayal_dhakad>☢Join my updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -211,8 +211,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> Size ⚙️: {file_size}
 
+<b> ⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
@@ -222,7 +224,7 @@ IMDb Data:
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ RunTime: {runtime} Minutes
+📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
 
@@ -663,6 +665,30 @@ Also your tutorial will be Added Your Group..."""
 
  মেয়াদ: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
 
-n't Remove Credit @VJ_Botz
+ একটি ভিডিও যোগ করুন
+
+ 👇 কিভাবে যোগ করবেন 👇
+
+ মেয়াদ: /set_tutorial ভিডিও লিঙ্ক
+
+এছাড়াও আপনার দল ভিডিও সংগ্রহের প্রশিক্ষণ দেবে..."""
+
+
+    DEVELOPER_TXT = """
+special Thanks To ❤️ Developers -
+
+-Dev 1 [Owner of this bot ]<a href='https://t.me/Deendayal_dhakad'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a>
+
+-Dev 2 <a href='https://t.me/Deendayal_dhakad'>VJ</a>
+
+-Dev 3 <a href='https://t.me/Deendayal_dhakad'>Jᴏᴇʟ </> TɢX</a>
+
+- Dev 4 <a href='https://t.me/Deendayal_dhakad'>TEAM VJ</a>
+"""
+
+
+# Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
+
