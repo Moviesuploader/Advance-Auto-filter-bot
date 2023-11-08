@@ -209,7 +209,12 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
- 
+   CAPTION = """<b>{file_name}
+
+<b> Size ⚙️: {file_size}
+
+<b> ⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
