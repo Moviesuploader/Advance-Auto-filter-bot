@@ -323,7 +323,7 @@ async def start(client, message):
                     InlineKeyboardButton('How to verify', url='https://t.me/Deendayal_dhakad')
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>You are not verified !\nKindly verify to continue !\n\nइस Bot से मूवी प्राप्त करने के लिए आपको Verify करना होगा नहीं तो आप मूवी प्राप्त नहीं कर सकते।</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -387,7 +387,7 @@ async def start(client, message):
                     InlineKeyboardButton('How to verify', url='https://t.me/Deendayal_dhakad1')
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>You are not verified !\nKindly verify to continue !\n\nइस Bot से मूवी प्राप्त करने के लिए आपको Verify करना होगा नहीं तो आप मूवी प्राप्त नहीं कर सकते।</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -447,7 +447,7 @@ async def start(client, message):
                     InlineKeyboardButton('How to verify', url='https://t.me/Deendayal_dhakad1')
                 ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b>You are not verified !\nKindly verify to continue !\n\nइस Bot से मूवी प्राप्त करने के लिए आपको Verify करना होगा नहीं तो आप मूवी प्राप्त नहीं कर सकते।</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
