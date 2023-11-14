@@ -27,7 +27,7 @@ Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛ�
 Where is source code? - <a href='https://t.me/Deendayal_dhakad'>Deendayal Dhakad</a></b>
 
 
-Developer - <a href='https://t.me/#Sorry_Sorry_Galti_Ho_Gai'>Deendayal Dhakad</a></b>"""
+Developer - <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>Deendayal Dhakad</a></b>"""
 
 
 
