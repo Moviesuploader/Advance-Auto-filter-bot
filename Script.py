@@ -26,7 +26,9 @@ Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛ�
 
 😂 Sᴏᴜʀᴄᴇ - ɪᴛ's ᴀ ᴘʀɪᴠᴀᴛᴇ ʀᴇᴘᴏ
 
- Developer - <a href='https://t.me/Sorry_Sorry_Galti_Ho_Gai'>Deendayal Dhakad</a></b>"""
+ [[
+     InlineKeyboardButton(' 🌲 developer 🌲', url=f'http://t.me/Sorry_Sorry_Galti_Ho_Gai')
+    ]]
 
 
 
