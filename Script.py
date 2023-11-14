@@ -24,11 +24,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-😂 Sᴏᴜʀᴄᴇ - ɪᴛ's ᴀ ᴘʀɪᴠᴀᴛᴇ ʀᴇᴘᴏ
+Where is source code? - <a href='https://t.me/Deendayal_dhakad'>Deendayal Dhakad</a></b>
 
- [[
-     InlineKeyboardButton(' 🌲 developer 🌲', url=f'http://t.me/Sorry_Sorry_Galti_Ho_Gai'))
-]]
+
+Developer - <a href='https://t.me/#Sorry_Sorry_Galti_Ho_Gai'>Deendayal Dhakad</a></b>"""
 
 
 
