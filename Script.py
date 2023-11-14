@@ -27,8 +27,8 @@ Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛ�
 😂 Sᴏᴜʀᴄᴇ - ɪᴛ's ᴀ ᴘʀɪᴠᴀᴛᴇ ʀᴇᴘᴏ
 
  [[
-     InlineKeyboardButton(' 🌲 developer 🌲', url=f'http://t.me/Sorry_Sorry_Galti_Ho_Gai')
-    ]]
+     InlineKeyboardButton(' 🌲 developer 🌲', url=f'http://t.me/Sorry_Sorry_Galti_Ho_Gai'))
+]]
 
 
 
