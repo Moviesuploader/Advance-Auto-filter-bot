@@ -681,7 +681,7 @@ special Thanks To ❤️ Developers -
 
 -Dev 2 <a href='https://t.me/Deendayal_dhakad'>Deendayal dhakad</a>
 
--Dev 3 <a href='https://t.me/https://t.me/+UexCvjiPgXljNDRl>Jᴏᴇʟ </> TɢX</a>
+-Dev 3 <a href='https://t.me/Deendayal_dhakad_Group'>Jᴏᴇʟ </> TɢX</a>
 
 - Dev 4 <a href='https://t.me/Deendayal_dhakad'>Deendayal Dhakad</a>
 """
