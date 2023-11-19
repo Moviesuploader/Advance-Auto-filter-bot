@@ -93,7 +93,8 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
-            caption="Please Join MY Updates Channel To Use This Bot!",
+            caption="**Please Join My Updates Channel to use this Bot!**\n\n"
+                 "Due to Overload, Only Channel Subscribers can use this Bot!",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
