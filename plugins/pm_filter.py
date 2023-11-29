@@ -138,7 +138,6 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
             InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
@@ -151,7 +150,6 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
             InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
     try:
         if settings['max_btn']:
