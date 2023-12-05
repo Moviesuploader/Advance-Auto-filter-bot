@@ -1,3 +1,4 @@
+asyncio
 dnspython==2.3.0
 pyrogram>=2.0.30 
  tgcrypto 
