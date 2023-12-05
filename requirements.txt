@@ -1,3 +1,4 @@
+Remove version and = of motor
 asyncio
 pyrogram>=2.0.30 
  tgcrypto 
