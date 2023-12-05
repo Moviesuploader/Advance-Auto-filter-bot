@@ -1,4 +1,3 @@
-Remove version and = of motor
 asyncio
 pyrogram>=2.0.30 
  tgcrypto 
@@ -49,6 +48,18 @@ requests
  dnspython==2.3.0
  ### googletrans==4.0.0-rc1 ###
 python-decouple
+
+pyrogram<=2.0.33
+tgcrypto<=1.2.3
+aiohttp<=3.9.0b0
+python-dotenv<=0.20.0
+motor
+aiofiles
+dnspython
+apscheduler
+requests
+psutil
+pyromod
 ffmpeg-python>=0.2.0
 ytthumb
 
