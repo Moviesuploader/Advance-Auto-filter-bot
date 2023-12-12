@@ -209,7 +209,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <a href=https://t.me/Deendayal_dhakad>{file_caption}</a>
+    CAPTION = """<b><a href=https://t.me/Deendayal_dhakad>{file_caption}</a>
 
 <b> Size ⚙️: {file_size}
 
