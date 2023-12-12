@@ -92,7 +92,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
+            photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
             caption="**Please Join My Updates Channel to use this Bot!**\n\n"
                  "Due to Overload, Only Channel Subscribers can use this Bot!",
             reply_markup=InlineKeyboardMarkup(btn),
