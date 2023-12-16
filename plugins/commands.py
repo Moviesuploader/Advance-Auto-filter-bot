@@ -94,7 +94,8 @@ async def start(client, message):
             chat_id=message.from_user.id,
             photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
             caption="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use this Bot!",
+                 "Due to Overload, Only Channel Subscribers can use this Bot!\n\n\nआपने हमारे Update Channel को join नहीं कर रखा है।
+ Join Our Channel वाले बटन पर Click करें। और हमारे अपडेट चैनल को ज्वाइन करें। इसके बाद आप फिर से  Try करें।",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
