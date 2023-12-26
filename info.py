@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '16681004'))
 API_HASH = environ.get('API_HASH', '161b61f5a06dd299a3d88a3384b9f104')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6818265784:AAHSaflfNQLroIguaVEIi3mAg_inV0y8YNM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -48,10 +48,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "vkbotsthalpathy")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Ziplinker.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4859713bcbf09f6fca6de13b5f88bbf29ea5ea6c')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -59,7 +59,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('Support Group', 'https://t.me/Deendayal_dhakad_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Deendayal_dhakad')
 TUTORIAL = environ.get('TUTORIAL', 'https://youtu.be/Hn4ZKeew-PM?si=E88C8xrjjJ5CB5Bu')
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002066851846'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Deendayal_dhakad')
