@@ -64,7 +64,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002066851846'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Deendayal_dhakad')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -100,8 +100,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://deendayal-067f94d22f33.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://deendayal-067f94d22f33.herokuapp.com/".format(FQDN, PORT)
+URL = "https://deendayal-5487119d3b7c.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://deendayal-5487119d3b7c.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -116,9 +116,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://deendayal-067f94d22f33.herokuapp.com/".format(FQDN)
+    URL = "https://deendayal-5487119d3b7c.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://deendayal-067f94d22f33.herokuapp.com/".format(FQDN)
+    URL = "https://deendayal-5487119d3b7c.herokuapp.com/".format(FQDN)
 
 
 
