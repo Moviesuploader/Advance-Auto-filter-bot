@@ -53,8 +53,8 @@ async def start(client, message):
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
                     InlineKeyboardButton('🌿 Movie Group 🌿', url='https://t.me/+UexCvjiPgXljNDRl')
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('☔ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('💘 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                   InlineKeyboardButton('⚜️ Join Updates Channel ⚜️', url='https://t.me/Deendayal_dhakad')
                   ]]
@@ -108,8 +108,8 @@ async def start(client, message):
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
                     InlineKeyboardButton('🌿 Movie Channel 🌿', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('☔ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('💘 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                   InlineKeyboardButton('⚜️ Join Updates Channel ⚜️', url=CHNL_LNK)
                   ]]
