@@ -31,7 +31,7 @@ async def start(client, message):
                     InlineKeyboardButton(' 🔰 Add Me To Your Group 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🔱 Support Group 🔱', url="https://t.me/Deendayal_Dhakad_Group"),
-                    InlineKeyboardButton('🌿 Movie Group 🌿', url='https://t.me/+UexCvjiPgXljNDRl')
+                    InlineKeyboardButton('🌿 Movie Group 🌿', url='https://t.me/Deendayal_Movies_Group')
                 ],[
                   InlineKeyboardButton('⚜️ Update channel ⚜️', url='https://t.me/Deendayal_dhakad')
                   ]]
@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('🔰 Add Me To Your Group 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🌿 Movie Group 🌿', url='https://t.me/+UexCvjiPgXljNDRl')
+                    InlineKeyboardButton('🌿 Movie Group 🌿', url='https://t.me/Deendayal_Movies_Group')
                 ],[
                     InlineKeyboardButton('☔ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('💘 Aʙᴏᴜᴛ', callback_data='about')
