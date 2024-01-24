@@ -58,7 +58,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('Support Group', 'https://t.me/Deendayal_dhakad_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Deendayal_dhakad')
-TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/Deenu_dhakad0')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deenu_dhakad')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002066851846'))
@@ -100,8 +100,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://deendayal-5487119d3b7c.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://deendayal-5487119d3b7c.herokuapp.com/".format(FQDN, PORT)
+URL = "https://deendayalfilterbot-0e173670fb43.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://deendayalfilterbot-0e173670fb43.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -116,9 +116,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://deendayal-5487119d3b7c.herokuapp.com/".format(FQDN)
+    URL = "https://deendayalfilterbot-0e173670fb43.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://deendayal-5487119d3b7c.herokuapp.com/".format(FQDN)
+    URL = "https://deendayalfilterbot-0e173670fb43.herokuapp.com/".format(FQDN)
 
 
 
