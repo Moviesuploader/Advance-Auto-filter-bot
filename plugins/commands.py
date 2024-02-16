@@ -117,7 +117,7 @@ async def start(client, message):
                 ],[
                   InlineKeyboardButton('💖 Chat Gpt Bot 💖', url='https://t.me/Deendayal_Chat_Gpt_Bot')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('👩‍🌾 Join Updates Channel 👩‍🌾', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
