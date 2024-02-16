@@ -96,8 +96,11 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
-            caption="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
+            caption="**Please Join My Updates Channel to use this Bot!**\n\n"
+                 "**Due to Overload, Only Channel Subscribers can use this Bot!**\n\n"
+            "आपने हमारे Update Channel को join नहीं कर रखा है।"
+            "**Join Our Channel वाले बटन पर Click करें। और हमारे अपडेट चैनल को ज्वाइन करें। इसके बाद आप फिर से Try करें।.....**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
