@@ -42,10 +42,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('❣️ Support Group ❣️', url=GRP_LNK),
+                    InlineKeyboardButton('⚜️ Update Channel ⚜️', url=CHNL_LNK)
                  ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/Sorry_Sorry_Galti_Ho_Gai")
+                    InlineKeyboardButton("👩‍🌾 Bot Owner 👩‍🌾", url="https://t.me/Sorry_Sorry_Galti_Ho_Gai")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -93,8 +93,8 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support Group',url="https://t.me/Deendayal_dhakad_Group"),
-            InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/Sorry_Sorry_Galti_Ho_Gai")
+            InlineKeyboardButton('❣️ Support Group ❣️',url="https://t.me/Deendayal_dhakad_Group"),
+            InlineKeyboardButton(" 👩‍🌾 Bot Owner 👩‍🌾", url="https://t.me/Sorry_Sorry_Galti_Ho_Gai")
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
