@@ -26,7 +26,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6893831166:AAE_DOvOsniZ7IBEgnw4FhrGxrLIRKZ
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/7c73ac2b6c4b877423b47.jpg https://graph.org/file/f968189d43f4feaf519e8.jpg https://graph.org/file/df0616c6d89ac090d1950.jpg https://graph.org/file/55f3ef2dead83f4d0b4d2.jpg https://graph.org/file/9f194d6b89ae9f70cb498.jpg https://graph.org/file/72d0c13c00c347a126235.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/45676165d3d435ac8a92b.jpg https://graph.org/file/d4d203106d2f90ea8a62e.jpg https://graph.org/file/744672deba88418f5e610.jpg https://graph.org/file/9584a49b366bcbe5bff2d.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/Deenu_dhakad")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
