@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a><b>,\n\nI Am The Most Powerful Auto Filter Bot With Premium Features.<b>\n\n<b> ⚜️ MANTAINED BY 👉 <a href=https://t.me/Sorry_Sorry_Galti_Ho_Gai>Deendayal</a></b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a><b>,\n\n**I Am The Most Powerful Auto Filter Bot With Premium Features.**\n\n<b> ⚜️ MANTAINED BY 👉 <a href=https://t.me/Sorry_Sorry_Galti_Ho_Gai>Deendayal</a></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
