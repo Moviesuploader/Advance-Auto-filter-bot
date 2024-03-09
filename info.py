@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '16681004'))
 API_HASH = environ.get('API_HASH', '161b61f5a06dd299a3d88a3384b9f104')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6893831166:AAE_DOvOsniZ7IBEgnw4FhrGxrLIRKZnAdY")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7054798623:AAGipzv0L3AKSYWaceTmRPRh92FAUGwGjbk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -56,7 +56,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4859713bcbf09f6fca6de13b5f88bbf29ea5ea6c')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
