@@ -1177,7 +1177,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/Deendayal_Movies_Group")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+oxbJ7wxY2Zg1Y2Zl")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1256,7 +1256,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             lazy_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             lazy_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
 
-            xo = await query.message.reply_text(f'⚜️')
+            xo = await query.message.reply_sticker("CAACAgUAAxkBAAIT5mXskQ3iHcS2yDu7vGqxlK3-ShFWAAIpDgACpR84VDEYtbiqo_T6NAQ")
             await asyncio.sleep(1)
             await xo.delete()
 
@@ -1960,7 +1960,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_text(f"<b><i> 𝖲𝖾𝖺𝗋𝖼𝗁𝗂𝗇𝗀 𝖿𝗈𝗋 '{search}' 🔎</i></b>")
+            m=await message.reply_sticker("CAACAgUAAxkBAAIUDGXty3Y8hLX1arA50HxPSOq8W5hxAALTBAACAizZVB2nDP4Nbt1mNAQ")
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -1989,7 +1989,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_text(f"<b><i> 𝖲𝖾𝖺𝗋𝖼𝗁𝗂𝗇𝗀 𝖿𝗈𝗋 '{search}' 🔎</i></b>")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIUDGXty3Y8hLX1arA50HxPSOq8W5hxAALTBAACAizZVB2nDP4Nbt1mNAQ")
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
@@ -2123,7 +2123,7 @@ async def auto_filter(client, msg, spoll=False):
             try:
                if settings['auto_delete']:
                     await asyncio.sleep(300)
-                    m=await message.reply_sticker("CAACAgUAAxkBAAIUDGXty3Y8hLX1arA50HxPSOq8W5hxAALTBAACAizZVB2nDP4Nbt1mNAQ")
+                    m=await message.reply_sticker("CAACAgQAAxkBAAIT5GXskAJWMW8AAdpa1U_x9F83Av_5jwAC1AIAAnJxFyVUIYkDHFAofDQE")
                     await hmm.delete()
                     await message.delete()
             except KeyError:
@@ -2133,7 +2133,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.delete()
         except Exception as e:
             logger.exception(e)
-            m=await message.reply_sticker("CAACAgUAAxkBAAIUDGXty3Y8hLX1arA50HxPSOq8W5hxAALTBAACAizZVB2nDP4Nbt1mNAQ") 
+            m=await message.reply_sticker("CAACAgQAAxkBAAIT5GXskAJWMW8AAdpa1U_x9F83Av_5jwAC1AIAAnJxFyVUIYkDHFAofDQE") 
             fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
             await m.delete()
             try:
