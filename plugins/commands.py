@@ -30,12 +30,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔰 Add Me To Your Group 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚜️ Contact ⚜️', url="https://t.me/Contact_Deendayal_bot"),
-                    InlineKeyboardButton('🔱 Movie Group 🔱', url='https://t.me/Deendayal_Movies_Group')
+                    InlineKeyboardButton('⚜️ Contact ⚜️', url="https://t.me/Beautyofsupportbot"),
+                    InlineKeyboardButton('🔱 Movie Group 🔱', url='https://t.me/beautyofthemoviesdiscussion')
                 ],[
-                  InlineKeyboardButton('💖 Chat Gpt Bot 💖', url='https://t.me/Deendayal_Chat_Gpt_Bot')
+                  InlineKeyboardButton('Movie Provider Bot 🎬', url='https://t.me/Millie_bobbby_bot')
                 ],[
-                    InlineKeyboardButton('👩‍🌾 Join Updates Channel 👩‍🌾', url=CHNL_LNK)
+                    InlineKeyboardButton('⚛️ Join Updates Channel ⚛️', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -53,18 +53,18 @@ async def start(client, message):
                     InlineKeyboardButton('🔰 Add Me To Your Group 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🔱 Movie Group 🔱', url='https://t.me/Deendayal_Movies_Group')
+                    InlineKeyboardButton('🔱 Movie Group 🔱', url='https://t.me/beautyofthemoviesdiscussion')
                 ],[
-                    InlineKeyboardButton('☔ Help', callback_data='help'),
-                    InlineKeyboardButton('💘 About', callback_data='about')
+                    InlineKeyboardButton('❗️ Help', callback_data='help'),
+                    InlineKeyboardButton('✨️ About', callback_data='about')
                 ],[
-                  InlineKeyboardButton('💖 Chat Gpt Bot 💖', url='https://t.me/Deendayal_Chat_Gpt_Bot')
+                  InlineKeyboardButton('Movie Provider Bot 🎬', url='https://t.me/Millie_bobbby_bot')
                 ],[
-                    InlineKeyboardButton('👩‍🌾 Join Updates Channel 👩‍🌾', url=CHNL_LNK)
+                    InlineKeyboardButton('⚛️Join Updates Channel ⚛️', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgIAAxkBAAELjQll2ycHOzZEY_8bSwI9MyevM4oCewAC9BMAAgd1EEk6jGepLNPMYDQE") 
-        await asyncio.sleep(1)
+        m=await message.reply_sticker("CAACAgUAAxkBAAIUCmXtxpjTkxGsKRTyOZgHRHcZg3XAAAIrBQACE1ExVfRdkGJZ0I5PNAQ") 
+        await asyncio.sleep(1.8)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -96,7 +96,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
+            photo="https://telegra.ph/file/754b2bb3825c98c56d9dc.jpg",
             caption="**Please Join My Updates Channel to use this Bot!**\n"
                  "**Due to Overload, Only Channel Subscribers can use this Bot!**\n\n"
             "**आपने हमारे Update Channel को join नहीं कर रखा है।**\n"
@@ -112,12 +112,12 @@ async def start(client, message):
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
                     InlineKeyboardButton('🔱 Movie Group 🔱', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('☔ Help', callback_data='help'),
-                    InlineKeyboardButton('💘 About', callback_data='about')
+                    InlineKeyboardButton('❗️ Help', callback_data='help'),
+                    InlineKeyboardButton('✨️ About', callback_data='about')
                 ],[
-                  InlineKeyboardButton('💖 Chat Gpt Bot 💖', url='https://t.me/Deendayal_Chat_Gpt_Bot')
+                  InlineKeyboardButton('Movie Provider Bot 🎬', url='https://t.me/Millie_bobbby_bot')
                 ],[
-                    InlineKeyboardButton('👩‍🌾 Join Updates Channel 👩‍🌾', url=CHNL_LNK)
+                    InlineKeyboardButton('⚛️ Join Updates Channel ⚛️', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -169,7 +169,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('⚜️ Update Channel ⚜️', url="https://t.me/Deendayal_dhakad")
+                                InlineKeyboardButton('⚜️ Update Channel ⚜️', url="https://t.me/beautyofthemoviesx")
                             ],
                             [
                                 InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -188,7 +188,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("⚜️ Update Channel ⚜️", url="https://t.me/Deendayal_deendayal")
+                          InlineKeyboardButton("⚜️ Update Channel ⚜️", url="https://t.me/beautyofthemoviesx")
                          ],[ 
                             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
@@ -344,7 +344,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("⚜️ Update Channel ⚜️", url="t.me/Deendayal_dhakad")
+                      InlineKeyboardButton("⚜️ Update Channel ⚜️", url="https://t.me/beautyofthemoviesx")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -407,7 +407,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("⚜️ Update Channel ⚜️", url="t.me/Deendayal_dhakad")
+                      InlineKeyboardButton("⚜️ Update Channel ⚜️", url="https://t.me/beautyofthemoviesx")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -467,7 +467,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("⚜️ Update Channel ⚜️", url="t.me/Deendayal_dhakad")
+              InlineKeyboardButton("⚜️ Update Channel ⚜️", url="https://t.me/beautyofthemoviesx")
              ],
              [
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
