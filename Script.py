@@ -10,7 +10,7 @@ class script(object):
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Ashishofficials>𝘼𝙎𝙃𝙄𝙎𝙃 ⚜️</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Beautyofthemoviesxbot>𝘽𝙀𝘼𝙐𝙏𝙔𝙊𝙁𝙏𝙃𝙀𝙈𝙊𝙑𝙄𝙀𝙎𝙓 👑</a>
  ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Ashishofficials'>𝘼𝙎𝙃𝙄𝙎𝙃 ⚜️</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
@@ -24,7 +24,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-Where is source code? - <a href='telegram.me/Ashishofficials'>𝘼𝙎𝙃𝙄𝙎𝙃</a></b>
+Where is source code? - <a href='telegram.me/Beautyofsupportbot'>BEAUTYOFTHEMOVIES</a></b>
 
 
 Developer - <a href='https://t.me/Ashishofficials'>Jai Shri Ram</a></b>"""
