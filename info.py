@@ -28,7 +28,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/45676165d3d435ac8a92b.jpg https://graph.org/file/d4d203106d2f90ea8a62e.jpg https://graph.org/file/744672deba88418f5e610.jpg https://graph.org/file/9584a49b366bcbe5bff2d.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/Deenu_dhakad")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/beautyofthemovie")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -54,20 +54,20 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4859713bcbf09f6fca6de13b5f88bbf29ea5ea6c')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'bindaaslinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f0407e59364af78f5210a8dab52e859ee0a93e10')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Deendayal_dhakad_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Deendayal_dhakad')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Deenu_dhakad')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/beautyofthemoviesdiscussion')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/beautyofthemoviesx')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/beautyofthemovie/4')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002066851846'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Deendayal_dhakad')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002039135881'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+oxbJ7wxY2Zg1Y2Zl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
